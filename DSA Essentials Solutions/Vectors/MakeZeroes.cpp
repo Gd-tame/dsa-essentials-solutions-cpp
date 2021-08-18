@@ -20,7 +20,7 @@ vector<vector<int>> makeZeroes(vector<vector<int>> arr){
         }
     }
     for(auto x : c){
-        for(int i=0; i<n; i++){
+        for(int i=0; i<m; i++){ 
             arr[i][x] = 0;
         }
     }
